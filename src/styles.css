@@ -34,3 +34,21 @@ input {
   border-radius: 5px;
   text-indent: 6px;
 }
+
+.form_country {
+  display: flex;
+  justify-content: center;
+}
+
+.country{
+  text-align: center;
+}
+
+.text{
+  font-weight: bold;
+}
+
+.flag {
+  width: 350px;
+  height: 335px;
+}
