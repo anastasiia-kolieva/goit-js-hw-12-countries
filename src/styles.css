@@ -12,9 +12,25 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
 
-  /*
-   * CSS image reference example.
-   */
-  background-image: url('./images/bg-pattern.png');
+form, input {
+  font-size: 20px;
+}
+
+.search-form{
+  display: flex;
+  margin: 20px auto;
+}
+
+.search-form-wrapper{
+  justify-content: center;
+}
+
+input { 
+  width: 235px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  text-indent: 6px;
 }
