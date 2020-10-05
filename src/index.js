@@ -12,7 +12,7 @@ refs.searchFormInput.addEventListener('input', debounce(debouncendFunctionOfSerc
 function debouncendFunctionOfSerching(event) {
     event.preventDefault();
   
-    // вызов функции очистки инпута перед вводом нового поиска страны
+    // вызов функции результата поиска инпута перед вводом нового поиска страны. 
     clearSearchFormInput();
   
     // значение которое вводят в инпут
@@ -34,9 +34,9 @@ function debouncendFunctionOfSerching(event) {
     });
   }
 
-// функция очистки инпута перед вводом поиска новой страны
+// функция очистки результата поиска перед вводом поиска новой страны
 function clearSearchFormInput() {
-  refs.searchFormInput.innerHTML = ' ';
+  refs.countriesList.innerHTML = ' ';
 }
 
 // функция прорисовки шаблона для одной страны
