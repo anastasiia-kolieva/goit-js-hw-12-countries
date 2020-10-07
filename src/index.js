@@ -34,7 +34,7 @@ function debouncendFunctionOfSerching(event) {
       error({
         text: 'Too many matches found. Please enter a more specific query!',
       });
-    } else if (countries.length === 0) {
+    } else if (countries.status === 404) {
       // если вернулся пустой массив
       error({
         text: 'Country not found!',
